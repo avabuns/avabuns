@@ -7,7 +7,19 @@
     text-align: center;
 }
 
+h1 {
+    font-size: 5vw;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
 a {
     color: #130F2b;
     font-size: 24px;
-};
+}
+
+a:hover {
+    color: #130F2b;
+}
