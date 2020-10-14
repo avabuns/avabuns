@@ -76,9 +76,17 @@
 
         jQuery(document).ready(function($){
             if(isMobile) {
-            $('#warning').css("display", "none");
-        }
-});
+                $('#warning').css("display", "none");
+            }
+        });
+
+        jQuery(document).ready(function($){
+            if(!isMobile) {
+                $('body').css("background-image", 'none');
+                $('body').css("background-color", "#EEDCD3")
+            }
+        });
+
     </script>
 </body>
 </html>
